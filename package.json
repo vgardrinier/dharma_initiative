@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "start": "node main.js"
+  },
   "name": "elevate",
   "description": "a really cool landing page",
   "version": "1.0.0",
@@ -7,6 +10,4 @@
   }
 }
 
-"scripts": {
-  "start": "node index.js"
-}
+
