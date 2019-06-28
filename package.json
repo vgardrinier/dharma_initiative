@@ -1,13 +1,13 @@
 {
   "scripts": {
-    "start": "node /js/main.js"
+    "start": "node ./js/main.js"
   },
   "name": "elevate",
   "description": "a really cool landing page",
   "version": "1.0.0",
   "engines": {
     "node": "10.16.0"
-  }
+  },
 }
 
 
