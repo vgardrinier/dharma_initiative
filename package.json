@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node ./js/main.js"
+    "start": "node /main.js"
   },
   "name": "elevate",
   "description": "a really cool landing page",
