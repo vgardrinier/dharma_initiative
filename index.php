@@ -1,3 +1,2 @@
-<!-- <?php header( 'Location: /index.html' ) ;  ?> -->
 
-<?php include 'index.html';?>
+<?php require("index.html"); ?>
