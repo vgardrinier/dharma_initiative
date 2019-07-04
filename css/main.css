@@ -68,7 +68,15 @@ main > section {
     background-color: rgba(0,158,227, 0.78);
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
-    color: #fff;
+    color: #fff
+}
+
+.btn-pink {
+  background-color: #E30047;
+  box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
+  padding: 15px 55px;
+  color: #fff;
+  margin-left: 40px;
 }
 
 .btn-border {
