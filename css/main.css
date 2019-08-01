@@ -16,7 +16,7 @@
 
 body {
     background-color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Avenir', 'Open Sans', 'sans-serif';
     line-height: 24px;
     font-size: 16px;
     color: #818181;
@@ -58,10 +58,10 @@ main > section {
 }
 
 .btn {
-    border-radius: 0;
+    border-radius: 5;
     border: 0;
     position: relative;
-    text-transform: uppercase;
+   /* text-transform: uppercase;*/
 }
 
 .btn-blue {
@@ -298,15 +298,16 @@ main > section {
 
 h1.navbar-brand {
     font-size: 20px;
+    font-family: "Avenir"
     font-weight: 700;
     margin: 0;
-    text-transform: uppercase;
+  /*  text-transform: uppercase;*/
 }
 
 .navbar-inverse .navbar-nav > li > a {
     color: #fff;
     font-size: 15px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 
@@ -520,12 +521,12 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
-    color: #fff;
+    background-color: whitesmoke;
+    color: black;
 }
 
 #about h3 {
-    color: #fff;
+    color: black;
     margin: 0 0 35px;
     text-transform: uppercase;
 }
@@ -1452,3 +1453,16 @@ textarea.form-control {
         width: 380px;
     }
 }
+
+.opacity-trick {
+  opacity: 0;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+.opacity-trick:hover {
+  opacity: 1;
+}
+
